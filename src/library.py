@@ -7,7 +7,7 @@ from src.models.admin import Admin
 
 
 class Library:
-    """Main Library Management System class."""
+    """Main Ekhaya Library Management System class."""
     
     def __init__(self, books_file='data/books.json', members_file='data/members.json', admin_file='data/admins.json'):
         """

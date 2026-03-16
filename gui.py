@@ -23,7 +23,7 @@ class LibraryGUI(tk.Tk):
 
     def __init__(self):
         super().__init__()
-        self.title("Library Management System")
+        self.title(" Ekhaya Library Management System")
         self.geometry("900x650")
         self.minsize(850, 600)
 

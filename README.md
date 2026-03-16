@@ -257,7 +257,7 @@ This project is open source and available for educational purposes.
 
 ## Author
 
-Library Management System Project
+Terrence Munjoma 
 
 ## Support
 
