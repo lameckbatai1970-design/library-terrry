@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .header {
+            text-align: center;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .feature {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📚 Library Management System</h1>
+        <p>A comprehensive Python-based library management solution</p>
+    </div>
+
+    <div class="content">
+        <h2>About</h2>
+        <p>This Library Management System is built with Python and provides both command-line and graphical user interfaces for managing books, members, borrowing transactions, and fines with secure admin authentication.</p>
+
+        <h2>Key Features</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>🔐 Secure Authentication</h3>
+                <p>Admin login with SHA256 password hashing</p>
+            </div>
+            <div class="feature">
+                <h3>📖 Book Management</h3>
+                <p>Add, remove, update, and list books in inventory</p>
+            </div>
+            <div class="feature">
+                <h3>👥 Member Management</h3>
+                <p>Register and manage library members with privacy protection</p>
+            </div>
+            <div class="feature">
+                <h3>🔄 Borrowing System</h3>
+                <p>Track book borrowing and returning with customizable periods</p>
+            </div>
+            <div class="feature">
+                <h3>💰 Fine Calculation</h3>
+                <p>Automatic fine calculation for overdue books</p>
+            </div>
+            <div class="feature">
+                <h3>🔍 Search Functionality</h3>
+                <p>Search books and members with advanced filters</p>
+            </div>
+        </div>
+
+        <h2>Installation & Usage</h2>
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>Python 3.6 or higher</li>
+        </ul>
+
+        <h3>Installation</h3>
+        <div class="code">
+pip install -r requirements.txt
+        </div>
+
+        <h3>Running the Application</h3>
+        <p><strong>Command Line Interface (Default):</strong></p>
+        <div class="code">
+python main.py
+        </div>
+
+        <p><strong>Graphical User Interface:</strong></p>
+        <div class="code">
+python main.py --gui
+        </div>
+
+        <h2>Project Structure</h2>
+        <ul>
+            <li><code>src/</code> - Core application modules</li>
+            <li><code>data/</code> - JSON data storage files</li>
+            <li><code>assets/</code> - Application assets (logos, etc.)</li>
+            <li><code>main.py</code> - Application entry point</li>
+            <li><code>requirements.txt</code> - Python dependencies</li>
+        </ul>
+
+        <h2>Deployment</h2>
+        <p>This application can be deployed on any system with Python installed. For web deployment, consider using frameworks like Flask or Django to create a web interface.</p>
+    </div>
+</body>
+</html>
